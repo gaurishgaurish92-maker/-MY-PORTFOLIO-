@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAURISH | Cloud &amp; DevOps Engineer Portfolio</title>
+  <meta name="description" content="Professional Portfolio of Gaurish - B.Tech Information Technology Student & Aspiring Cloud & DevOps Engineer. Building Skills Today. Engineering Tomorrow.">
+  <meta name="keywords" content="Gaurish, Cloud Engineer, DevOps, AWS, Kubernetes, Docker, Terraform, CI/CD, Linux, IT Portfolio">
+  <meta name="author" content="Gaurish">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="GAURISH | Cloud &amp; DevOps Engineer Portfolio">
+  <meta property="og:description" content="Building Skills Today. Engineering Tomorrow. Resilient cloud architectures, automation, and continuous delivery.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts: Space Grotesk & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons (6.5.1) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Background Interactive Mesh Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Ambient Light Effects -->
+  <div class="ambient-glow ambient-glow-1"></div>
+  <div class="ambient-glow ambient-glow-2"></div>
+
+  <!-- ===================================================================
+       NAVIGATION BAR
+       =================================================================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Gaurish Home">
+        <span class="brand-icon">G</span>
+        <span>GAURISH M R<span class="dot">.</span>dev</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <!-- Theme Switcher -->
+        <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Dark and Light Mode" title="Toggle Theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+
+        <!-- QR Code Quick Trigger -->
+        <a href="#portfolio-qr" class="btn btn-secondary btn-sm" title="Mobile QR Code">
+          <i class="fa-solid fa-qrcode"></i>
+        </a>
+
+        <!-- Download Resume Button -->
+        <a href="assets/docs/Gaurish_Resume.pdf" download="Gaurish_Resume.pdf" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-file-arrow-down"></i> <span>Resume</span>
+        </a>
+
+        <!-- Hamburger Icon for Mobile Screens -->
+        <button class="nav-hamburger" id="nav-hamburger-btn" aria-label="Toggle Mobile Navigation" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================================================================
+         HERO SECTION
+         =================================================================== -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left Hero Column -->
+          <div class="hero-content">
+            <div class="hero-status-pill">
+              <span class="pulse-dot"></span>
+              <span>Open to Cloud &amp; DevOps Engineering Opportunities</span>
+            </div>
+
+            <div class="hero-greeting">
+              <span>Cloud &amp; DevOps Engineering Portfolio</span>
+            </div>
+
+            <h1 class="hero-name">
+              <span class="hero-name-gradient">GAURISH</span>
+            </h1>
+
+            <div class="hero-tagline-container">
+              <h2 class="hero-headline">B.Tech IT Student &amp; Aspiring Cloud &amp; DevOps Engineer</h2>
+              <p class="hero-tagline">"Building Skills Today. Engineering Tomorrow."</p>
+            </div>
+
+            <!-- Dynamic Animated Typing Text -->
+            <div class="typewriter-wrapper">
+              <span style="color: var(--text-muted);">&gt; Focus:</span>
+              <span id="typewriter-text"></span>
+              <span class="typewriter-cursor"></span>
+            </div>
+
+            <p class="hero-bio">
+              Specializing in resilient cloud architectures on AWS, container orchestration with Docker and Kubernetes, and automated zero-downtime CI/CD delivery pipelines. Dedicated to infrastructure automation, reliability engineering, and scalable distributed systems.
+            </p>
+
+            <!-- Hero Action Buttons -->
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fa-solid fa-diagram-project"></i> View Projects
+              </a>
+              <a href="assets/docs/Gaurish_Resume.pdf" download="Gaurish_Resume.pdf" class="btn btn-secondary">
+                <i class="fa-solid fa-download"></i> Download Resume (PDF)
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fa-regular fa-paper-plane"></i> Contact Me
+              </a>
+            </div>
+
+            <!-- Social Links & Profiles -->
+            <div class="hero-socials">
+              <span class="hero-socials-label">Profiles:</span>
+              <a href="https://github.com/gaurish-dev" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub Profile" aria-label="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://linkedin.com/in/gaurish-dev" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile" aria-label="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="mailto:gaurish.devops@example.com" class="social-icon-btn" title="Direct Email" aria-label="Send Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="resume.html" target="_blank" class="social-icon-btn" title="Printable ATS Resume" aria-label="View Printable Resume">
+                <i class="fa-solid fa-file-lines"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Hero Column: Profile Photo Visual & Floating Badges -->
+          <div class="hero-visual">
+            <div class="avatar-wrapper">
+              <div class="avatar-glow-ring"></div>
+              <div class="avatar-border-rotate"></div>
+              <div class="avatar-inner">
+                <img src="assets/images/profile-avatar.svg" alt="GAURISH - Cloud & DevOps Engineer" class="avatar-image" id="profile-img">
+              </div>
+
+              <!-- Floating Orbital Badges -->
+              <div class="floating-badge badge-aws" title="Amazon Web Services">
+                <i class="fa-brands fa-aws"></i> <span>AWS Cloud</span>
+              </div>
+              <div class="floating-badge badge-docker" title="Docker Containers">
+                <i class="fa-brands fa-docker"></i> <span>Docker</span>
+              </div>
+              <div class="floating-badge badge-k8s" title="Kubernetes Cluster">
+                <i class="fa-solid fa-dharmachakra"></i> <span>Kubernetes</span>
+              </div>
+              <div class="floating-badge badge-terraform" title="Terraform Infrastructure as Code">
+                <i class="fa-solid fa-cubes"></i> <span>Terraform</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Hero Stats Strip -->
+        <div class="hero-stats-strip">
+          <div class="stat-item">
+            <div class="stat-number" data-target="15" data-suffix="+">0+</div>
+            <div class="stat-label">Cloud &amp; DevOps Labs</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="6" data-suffix="+">0+</div>
+            <div class="stat-label">Production Deployments</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="99.9" data-suffix="%">0%</div>
+            <div class="stat-label">High-Availability Target</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="450" data-suffix="+">0+</div>
+            <div class="stat-label">Git Commits &amp; Automation</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         ABOUT ME SECTION
+         =================================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge">Professional Background</span>
+          <h2 class="section-title">About <span>Gaurish</span></h2>
+          <p class="section-description">
+            Information Technology undergraduate combining core computer systems engineering with modern cloud infrastructure, automation, and DevOps practices.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Narrative Column -->
+          <div class="about-narrative">
+            <h3>Bridging Systems Engineering, Cloud Architecture, and Automation</h3>
+            <p>
+              I am a Bachelor of Technology student in Information Technology passionate about designing scalable, fault-tolerant cloud systems. My engineering foundation spans Operating Systems, Computer Networks, and Database Management, coupled with extensive practical experience across Amazon Web Services (AWS), Docker containerization, Kubernetes orchestration, and Infrastructure as Code using Terraform.
+            </p>
+            <p>
+              My professional philosophy is guided by my personal tagline: <strong>"Building Skills Today. Engineering Tomorrow."</strong> I focus on writing clean, reproducible infrastructure code, automating repetitive operations, and building CI/CD pipelines that streamline software delivery without compromising security or reliability.
+            </p>
+
+            <!-- 4 Core Engineering Pillars -->
+            <div class="about-pillars">
+              <div class="pillar-card">
+                <div class="pillar-icon"><i class="fa-solid fa-cloud"></i></div>
+                <h4 class="pillar-title">Cloud Infrastructure</h4>
+                <p class="pillar-desc">Architecting secure, multi-AZ VPC environments on AWS with load balancers and automated resource provisioning.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon"><i class="fa-solid fa-gears"></i></div>
+                <h4 class="pillar-title">CI/CD &amp; GitOps</h4>
+                <p class="pillar-desc">Engineering zero-downtime deployment pipelines with GitHub Actions, container registries, and ArgoCD synchronization.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon"><i class="fa-solid fa-cubes-stacked"></i></div>
+                <h4 class="pillar-title">Container Orchestration</h4>
+                <p class="pillar-desc">Packaging distributed applications with Docker and managing scalable container clusters with Kubernetes and Helm.</p>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h4 class="pillar-title">SRE &amp; Observability</h4>
+                <p class="pillar-desc">Configuring Prometheus telemetry, Loki log aggregation, and customized Grafana operational dashboards.</p>
+              </div>
+            </div>
+
+            <!-- Quick Details Grid -->
+            <div class="quick-details-grid">
+              <div class="detail-item">
+                <span class="detail-label">Degree</span>
+                <p class="detail-value">B.Tech in Information Technology</p>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Primary Cloud Platform</span>
+                <p class="detail-value">Amazon Web Services (AWS)</p>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Core Specialization</span>
+                <p class="detail-value">Cloud, DevOps &amp; Infrastructure as Code</p>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Target Role</span>
+                <p class="detail-value">Cloud Engineer / DevOps Engineer / SRE</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Engineering Competencies & Architecture Standards -->
+          <div class="about-terminal-col">
+            <div class="glass-card" style="padding: 2.2rem; height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+              <div>
+                <span class="section-badge" style="margin-bottom: 1rem;"><i class="fa-solid fa-shield-halved"></i> Engineering Standards</span>
+                <h3 style="font-size: 1.4rem; margin-bottom: 1.2rem;">Core Principles &amp; Architecture Mindset</h3>
+                
+                <div style="display: flex; flex-direction: column; gap: 1.2rem; margin-bottom: 1.5rem;">
+                  <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                    <div style="width: 36px; height: 36px; border-radius: 8px; background: rgba(168, 85, 247, 0.15); display: flex; align-items: center; justify-content: center; color: var(--purple-light); flex-shrink: 0;">
+                      <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div>
+                      <h4 style="font-size: 0.98rem; margin-bottom: 0.2rem;">Declarative Infrastructure (IaC)</h4>
+                      <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">Every server, VPC, and cluster component is defined declaratively in Terraform with versioned remote state.</p>
+                    </div>
+                  </div>
+
+                  <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                    <div style="width: 36px; height: 36px; border-radius: 8px; background: rgba(6, 182, 212, 0.15); display: flex; align-items: center; justify-content: center; color: var(--cyan-accent); flex-shrink: 0;">
+                      <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div>
+                      <h4 style="font-size: 0.98rem; margin-bottom: 0.2rem;">Security &amp; Vulnerability Gates</h4>
+                      <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">Automated Trivy container scanning and IAM least-privilege policies integrated into the CI/CD pipeline gate.</p>
+                    </div>
+                  </div>
+
+                  <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                    <div style="width: 36px; height: 36px; border-radius: 8px; background: rgba(16, 185, 129, 0.15); display: flex; align-items: center; justify-content: center; color: var(--emerald-accent); flex-shrink: 0;">
+                      <i class="fa-solid fa-server"></i>
+                    </div>
+                    <div>
+                      <h4 style="font-size: 0.98rem; margin-bottom: 0.2rem;">High Availability &amp; Self-Healing</h4>
+                      <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">Zero-downtime rolling updates with Kubernetes ReplicaSets, health checks, and automatic pod restart mechanisms.</p>
+                    </div>
+                  </div>
+
+                  <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                    <div style="width: 36px; height: 36px; border-radius: 8px; background: rgba(245, 158, 11, 0.15); display: flex; align-items: center; justify-content: center; color: var(--amber-accent); flex-shrink: 0;">
+                      <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div>
+                      <h4 style="font-size: 0.98rem; margin-bottom: 0.2rem;">Proactive Telemetry</h4>
+                      <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">Continuous metric gathering with Prometheus and Grafana ensuring complete visibility into cluster latencies and saturation.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="padding-top: 1.2rem; border-top: 1px solid var(--border-glass); display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-size: 0.82rem; color: var(--text-muted);">Career Objective: Cloud &amp; DevOps Engineer</span>
+                <a href="#contact" class="btn btn-secondary btn-sm">Connect Directly</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         SKILLS & ROADMAP SECTION
+         =================================================================== -->
+    <section id="skills" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge">Technical Competencies</span>
+          <h2 class="section-title">Skills &amp; <span>Technologies</span></h2>
+          <p class="section-description">
+            A comprehensive inventory of the cloud services, orchestration runtimes, automation tooling, and scripting languages I actively work with.
+          </p>
+        </div>
+
+        <!-- Filter Buttons for Skills -->
+        <div class="skills-filter-nav">
+          <button class="filter-btn active" data-category="all">All Skills</button>
+          <button class="filter-btn" data-category="cloud">Cloud Platforms</button>
+          <button class="filter-btn" data-category="devops">DevOps &amp; IaC</button>
+          <button class="filter-btn" data-category="programming">Programming &amp; Scripting</button>
+          <button class="filter-btn" data-category="monitoring">Monitoring &amp; Linux</button>
+        </div>
+
+        <!-- Skills Cards Grid -->
+        <div class="skills-grid">
+          
+          <!-- AWS Card -->
+          <div class="skill-card" data-category="cloud">
+            <div class="skill-header">
+              <div class="skill-icon-box aws"><i class="fa-brands fa-aws"></i></div>
+              <div class="skill-info">
+                <h4>Amazon Web Services</h4>
+                <span class="skill-badge">Cloud Infrastructure</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-header">
+                <span>Core Competency</span>
+                <span>88%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="88%"></div>
+              </div>
+            </div>
+            <p class="skill-desc">VPC, EC2, S3, IAM Least Privilege, AWS Lambda, EKS, CloudWatch, Route53, and Cost Management.</p>
+          </div>
+
+          <!-- Docker Card -->
+          <div class="skill-card" data-category="devops">
+            <div class="skill-header">
+              <div class="skill-icon-box docker"><i class="fa-brands fa-docker"></i></div>
+              <div class="skill-info">
+                <h4>Docker Containers</h4>
+                <span class="skill-badge">Containerization</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-header">
+                <span>Multi-Stage Builds &amp; Compose</span>
+                <span>92%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="92%"></div>
+              </div>
+            </div>
+            <p class="skill-desc">Multi-stage Dockerfiles, Docker Compose networking, image security minimization, and layer caching.</p>
+          </div>
+
+          <!-- Kubernetes Card -->
+          <div class="skill-card" data-category="devops cloud">
+            <div class="skill-header">
+              <div class="skill-icon-box k8s"><i class="fa-solid fa-dharmachakra"></i></div>
+              <div class="skill-info">
+                <h4>Kubernetes (K8s)</h4>
+                <span class="skill-badge">Container Orchestration</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-header">
+                <span>Deployments &amp; Ingress</span>
+                <span>82%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="82%"></div>
+              </div>
+            </div>
+            <p class="skill-desc">Pods, Deployments, Services, Helm charts, Ingress Controllers, ConfigMaps, and Horizontal Pod Autoscaling (HPA).</p>
+          </div>
+
+          <!-- Terraform Card -->
+          <div class="skill-card" data-category="devops">
+            <div class="skill-header">
+              <div class="skill-icon-box"><i class="fa-solid fa-cubes"></i></div>
+              <div class="skill-info">
+                <h4>Terraform</h4>
+                <span class="skill-badge">Infrastructure as Code</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-header">
+                <span>Modules &amp; Remote State</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="85%"></div>
+              </div>
+            </div>
+            <p class="skill-desc">Modular AWS provisioning, S3 state backend with DynamoDB locking, environment parameterization, and drift detection.</p>
+          </div>
+
+          <!-- CI/CD & GitHub Actions Card -->
+          <div class="skill-card" data-category="devops">
+            <div class="skill-header">
+              <div class="skill-icon-box cicd"><i class="fa-solid fa-code-branch"></i></div>
+              <div class="skill-info">
+                <h4>GitHub Actions &amp; CI/CD</h4>
+                <span class="skill-badge">Continuous Delivery</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-header">
+                <span>Automated Pipelines &amp; GitOps</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="90%"></div>
+              </div>
+            </div>
+            <p class="skill-desc">Automated testing matrices, Trivy container security scanning, automated Docker Hub releases, and ArgoCD synchronization.</p>
+          </div>
+
+          <!-- Linux Administration Card -->
+          <div class="skill-card" data-category="monitoring">
+            <div class="skill-header">
+              <div class="skill-icon-box linux"><i class="fa-brands fa-linux"></i></div>
+              <div class="skill-info">
+                <h4>Linux Administration</h4>
+                <span class="skill-badge">Systems &amp; Kernel</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-header">
+                <span>Ubuntu, Debian &amp; Shell</span>
+                <span>88%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="88%"></div>
+              </div>
+            </div>
+            <p class="skill-desc">Systemd daemon management, Cron scheduling, user access control, SSH hardening, and kernel resource troubleshooting.</p>
+          </div>
+
+          <!-- Python Automation Card -->
+          <div class="skill-card" data-category="programming">
+            <div class="skill-header">
+              <div class="skill-icon-box python"><i class="fa-brands fa-python"></i></div>
+              <div class="skill-info">
+                <h4>Python (Boto3 SDK)</h4>
+                <span class="skill-badge">Cloud Automation</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-header">
+                <span>Scripting &amp; Lambda Handlers</span>
+                <span>86%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="86%"></div>
+              </div>
+            </div>
+            <p class="skill-desc">Boto3 AWS SDK automation, serverless event handlers, RESTful API consumption, and automated cost auditing scripts.</p>
+          </div>
+
+          <!-- Bash & Shell Scripting Card -->
+          <div class="skill-card" data-category="programming monitoring">
+            <div class="skill-header">
+              <div class="skill-icon-box"><i class="fa-solid fa-terminal"></i></div>
+              <div class="skill-info">
+                <h4>Bash Shell Scripting</h4>
+                <span class="skill-badge">Automation</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-header">
+                <span>Idempotent Automation</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="90%"></div>
+              </div>
+            </div>
+            <p class="skill-desc">Automated server bootstrapping, environment setup routines, health-check scripts, and cron-based monitoring tasks.</p>
+          </div>
+
+          <!-- Prometheus & Grafana Card -->
+          <div class="skill-card" data-category="monitoring">
+            <div class="skill-header">
+              <div class="skill-icon-box"><i class="fa-solid fa-chart-pie"></i></div>
+              <div class="skill-info">
+                <h4>Prometheus &amp; Grafana</h4>
+                <span class="skill-badge">Observability &amp; SRE</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-header">
+                <span>Telemetry &amp; Alerting</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="80%"></div>
+              </div>
+            </div>
+            <p class="skill-desc">PromQL queries, Node Exporter metrics, custom Grafana operational boards, and Alertmanager routing rules.</p>
+          </div>
+
+          <!-- Git Version Control Card -->
+          <div class="skill-card" data-category="devops programming">
+            <div class="skill-header">
+              <div class="skill-icon-box"><i class="fa-brands fa-git-alt"></i></div>
+              <div class="skill-info">
+                <h4>Git Version Control</h4>
+                <span class="skill-badge">Collaboration</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-header">
+                <span>Branching &amp; Trunk Delivery</span>
+                <span>94%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="94%"></div>
+              </div>
+            </div>
+            <p class="skill-desc">Branching workflows, semantic pull request management, conflict resolution, and GitOps source-of-truth management.</p>
+          </div>
+
+          <!-- Networking & Nginx Card -->
+          <div class="skill-card" data-category="monitoring">
+            <div class="skill-header">
+              <div class="skill-icon-box"><i class="fa-solid fa-network-wired"></i></div>
+              <div class="skill-info">
+                <h4>Networking &amp; Nginx</h4>
+                <span class="skill-badge">Traffic Management</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-header">
+                <span>DNS, CIDR &amp; Proxies</span>
+                <span>84%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="84%"></div>
+              </div>
+            </div>
+            <p class="skill-desc">TCP/IP, Subnetting/CIDR calculations, TLS/SSL certificate termination, reverse proxying, and load balancing.</p>
+          </div>
+
+          <!-- Web Engineering Card -->
+          <div class="skill-card" data-category="programming">
+            <div class="skill-header">
+              <div class="skill-icon-box"><i class="fa-solid fa-code"></i></div>
+              <div class="skill-info">
+                <h4>HTML5, CSS3 &amp; JavaScript</h4>
+                <span class="skill-badge">Full-Stack Core</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar-header">
+                <span>Web Architecture</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="85%"></div>
+              </div>
+            </div>
+            <p class="skill-desc">Semantic HTML, modern CSS styling, DOM manipulation, asynchronous JavaScript, and REST API integration.</p>
+          </div>
+
+        </div>
+
+        <!-- Learning Journey Roadmap Card -->
+        <div class="learning-roadmap-card">
+          <div class="roadmap-header">
+            <i class="fa-solid fa-route"></i>
+            <div>
+              <h3 style="font-size: 1.3rem;">Engineering Evolution &amp; Development Roadmap</h3>
+              <p style="font-size: 0.88rem; color: var(--text-muted);">The strategic learning milestones leading toward enterprise cloud mastery</p>
+            </div>
+          </div>
+
+          <div class="roadmap-steps">
+            <div class="roadmap-step">
+              <span class="step-phase">Phase 1 • Core Foundations</span>
+              <h4 class="step-title">IT &amp; Systems Engineering</h4>
+              <p class="step-details">Operating Systems, Computer Networks, Linux command-line mastery, Git version control, and Python scripting.</p>
+            </div>
+
+            <div class="roadmap-step">
+              <span class="step-phase">Phase 2 • Containerization</span>
+              <h4 class="step-title">Docker &amp; Microservices</h4>
+              <p class="step-details">Container packaging, multi-stage optimization, Docker Compose networking, and local Kubernetes clusters.</p>
+            </div>
+
+            <div class="roadmap-step">
+              <span class="step-phase">Phase 3 • Cloud &amp; IaC</span>
+              <h4 class="step-title">AWS &amp; Terraform Automation</h4>
+              <p class="step-details">Automated multi-AZ VPC provisioning, Amazon EKS managed clusters, and modular Terraform infrastructure.</p>
+            </div>
+
+            <div class="roadmap-step">
+              <span class="step-phase">Phase 4 • Reliability &amp; GitOps</span>
+              <h4 class="step-title">CI/CD &amp; Observability</h4>
+              <p class="step-details">ArgoCD continuous delivery, Trivy container security gates, Prometheus telemetry, and cloud cost optimization.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         EDUCATION SECTION
+         =================================================================== -->
+    <section id="education" class="section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge">Academic Credentials</span>
+          <h2 class="section-title">Education &amp; <span>Qualifications</span></h2>
+          <p class="section-description">
+            Rigorous undergraduate training in computer engineering principles paired with applied cloud computing labs.
+          </p>
+        </div>
+
+        <div class="education-timeline">
+          
+          <!-- B.Tech Degree Item -->
+          <div class="timeline-item">
+            <div class="timeline-icon-box">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <h3 class="degree-name">Bachelor of Technology (B.Tech) - Information Technology</h3>
+                <span class="degree-year"><i class="fa-regular fa-calendar"></i> 2023 - 2027</span>
+              </div>
+              <p class="institution-name"><i class="fa-solid fa-university"></i> Department of Information Technology, Faculty of Engineering &amp; Technology</p>
+              <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0.8rem;">
+                Four-year undergraduate degree covering software engineering, distributed systems, operating system architectures, and network protocols. Actively participating in technical societies and hands-on cloud labs.
+              </p>
+              
+              <h5 style="font-size: 0.82rem; text-transform: uppercase; color: var(--purple-light); letter-spacing: 0.5px; margin-top: 1rem;">Core Coursework &amp; Competencies:</h5>
+              <div class="coursework-tags">
+                <span class="cw-tag">Cloud Computing &amp; Virtualization</span>
+                <span class="cw-tag">Operating Systems (Unix/Linux)</span>
+                <span class="cw-tag">Computer Networks &amp; Protocols</span>
+                <span class="cw-tag">Database Management Systems (SQL)</span>
+                <span class="cw-tag">System Design &amp; Architecture</span>
+                <span class="cw-tag">Data Structures &amp; Algorithms</span>
+                <span class="cw-tag">Information Security</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Higher Secondary Item -->
+          <div class="timeline-item">
+            <div class="timeline-icon-box">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <h3 class="degree-name">Senior Secondary Certificate (Class XII) - Science &amp; Mathematics</h3>
+                <span class="degree-year"><i class="fa-regular fa-calendar"></i> Completed</span>
+              </div>
+              <p class="institution-name"><i class="fa-solid fa-school-flag"></i> Central Board of Secondary Education (CBSE)</p>
+              <p style="color: var(--text-muted); font-size: 0.95rem;">
+                Graduated with concentration in Physics, Chemistry, and Advanced Mathematics, establishing strong quantitative problem-solving and analytical foundations.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         PROJECTS SECTION
+         =================================================================== -->
+    <section id="projects" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge">Production Deployments</span>
+          <h2 class="section-title">Featured <span>Projects</span></h2>
+          <p class="section-description">
+            Production-grade cloud architectures, automated GitOps delivery pipelines, and serverless FinOps tooling.
+          </p>
+        </div>
+
+        <!-- Filter Buttons for Projects -->
+        <div class="projects-filter-nav">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="cloud-devops">Cloud &amp; DevOps</button>
+          <button class="filter-btn" data-filter="cicd">CI/CD &amp; Automation</button>
+          <button class="filter-btn" data-filter="fullstack">Architecture &amp; Tools</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          
+          <!-- Project 1: AWS EKS Microservices -->
+          <div class="project-card" data-category="cloud-devops">
+            <div class="project-preview">
+              <img src="assets/images/project-1.svg" alt="AWS EKS Microservices Architecture">
+              <span class="project-badge-tag">Kubernetes &amp; IaC</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Cloud-Native Microservices on AWS EKS</h3>
+              <p class="project-desc">
+                High-availability microservices cluster on Amazon EKS provisioned with Terraform, routed via Nginx Ingress Controller, and synchronized continuously with ArgoCD.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">AWS EKS</span>
+                <span class="p-tag">Terraform</span>
+                <span class="p-tag">Kubernetes</span>
+                <span class="p-tag">Helm</span>
+                <span class="p-tag">ArgoCD</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm open-project-modal-btn" data-project="p-eks">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Details
+                </button>
+                <a href="https://github.com/gaurish-dev" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: GitOps CI/CD Pipeline -->
+          <div class="project-card" data-category="cicd">
+            <div class="project-preview">
+              <img src="assets/images/project-2.svg" alt="GitOps CI/CD Pipeline">
+              <span class="project-badge-tag">CI/CD &amp; Security</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Zero-Downtime GitOps CI/CD Pipeline</h3>
+              <p class="project-desc">
+                Automated GitHub Actions delivery pipeline featuring linting gates, automated unit testing, Trivy container CVE vulnerability scans, and Blue-Green deployments.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">GitHub Actions</span>
+                <span class="p-tag">Docker</span>
+                <span class="p-tag">Trivy</span>
+                <span class="p-tag">ArgoCD</span>
+                <span class="p-tag">Bash</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm open-project-modal-btn" data-project="p-cicd">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Details
+                </button>
+                <a href="https://github.com/gaurish-dev" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Serverless Cloud Cost Optimizer -->
+          <div class="project-card" data-category="cicd cloud-devops">
+            <div class="project-preview">
+              <img src="assets/images/project-3.svg" alt="AWS Serverless Cloud Cost Optimizer">
+              <span class="project-badge-tag">Serverless &amp; FinOps</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">AWS Serverless Cost Optimizer &amp; Bot</h3>
+              <p class="project-desc">
+                Event-driven Python Lambda automation running on EventBridge cron schedules to audit unattached EBS volumes and idle EC2s, generating webhook expenditure reports.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">Python (Boto3)</span>
+                <span class="p-tag">AWS Lambda</span>
+                <span class="p-tag">EventBridge</span>
+                <span class="p-tag">CloudWatch</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm open-project-modal-btn" data-project="p-cost">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Details
+                </button>
+                <a href="https://github.com/gaurish-dev" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Full-Stack Observability Suite -->
+          <div class="project-card" data-category="fullstack">
+            <div class="project-preview">
+              <img src="assets/images/project-4.svg" alt="Observability Suite Prometheus Grafana">
+              <span class="project-badge-tag">Observability &amp; SRE</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Full-Stack Observability Telemetry Suite</h3>
+              <p class="project-desc">
+                Centralized metrics and log aggregation cluster combining Prometheus, Grafana, and Loki. Features real-time P99 latency alerts and customized cluster health dashboards.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">Prometheus</span>
+                <span class="p-tag">Grafana</span>
+                <span class="p-tag">Loki</span>
+                <span class="p-tag">Alertmanager</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm open-project-modal-btn" data-project="p-obs">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Details
+                </button>
+                <a href="https://github.com/gaurish-dev" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Terraform & Ansible Multi-AZ -->
+          <div class="project-card" data-category="cloud-devops">
+            <div class="project-preview">
+              <img src="assets/images/project-5.svg" alt="Terraform and Ansible Multi-AZ Infrastructure">
+              <span class="project-badge-tag">Infrastructure as Code</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Multi-AZ Infrastructure with Terraform</h3>
+              <p class="project-desc">
+                Modular Terraform code provisioning enterprise AWS VPC networks with public/private subnets, NAT gateways, Bastion hosts, and automated Ansible configuration.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">Terraform</span>
+                <span class="p-tag">Ansible</span>
+                <span class="p-tag">AWS VPC</span>
+                <span class="p-tag">Security Groups</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm open-project-modal-btn" data-project="p-iac">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Details
+                </button>
+                <a href="https://github.com/gaurish-dev" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: Containerized Nginx HA Cluster -->
+          <div class="project-card" data-category="fullstack">
+            <div class="project-preview">
+              <img src="assets/images/project-6.svg" alt="Containerized HA Cluster with Nginx and Redis">
+              <span class="project-badge-tag">High Availability</span>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">High-Availability Container Stack (Nginx)</h3>
+              <p class="project-desc">
+                Production-configured multi-container API service utilizing Nginx round-robin load balancing, Redis caching layer, and health check automatic recovery.
+              </p>
+              <div class="project-tags">
+                <span class="p-tag">Docker Compose</span>
+                <span class="p-tag">Nginx</span>
+                <span class="p-tag">Redis</span>
+                <span class="p-tag">Node.js API</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm open-project-modal-btn" data-project="p-ha">
+                  <i class="fa-solid fa-circle-info"></i> Architecture Details
+                </button>
+                <a href="https://github.com/gaurish-dev" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         CERTIFICATIONS & ACHIEVEMENTS SECTION
+         =================================================================== -->
+    <section id="certifications" class="section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge">Credentials &amp; Milestones</span>
+          <h2 class="section-title">Certifications &amp; <span>Achievements</span></h2>
+          <p class="section-description">
+            Industry credentials and technical achievements demonstrating hands-on cloud and DevOps engineering capability.
+          </p>
+        </div>
+
+        <!-- Certifications Cards Grid -->
+        <div class="certs-grid">
+          
+          <div class="cert-card">
+            <div class="cert-icon-wrap" style="color: #f59e0b; background: rgba(245, 158, 11, 0.12);">
+              <i class="fa-brands fa-aws"></i>
+            </div>
+            <div class="cert-details">
+              <h4>AWS Certified Solutions Architect</h4>
+              <p class="cert-issuer">Amazon Web Services</p>
+              <span class="cert-status"><i class="fa-solid fa-circle-check"></i> Associate Track (In Progress)</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon-wrap" style="color: #38bdf8; background: rgba(56, 189, 248, 0.12);">
+              <i class="fa-brands fa-docker"></i>
+            </div>
+            <div class="cert-details">
+              <h4>Docker &amp; Kubernetes Orchestration</h4>
+              <p class="cert-issuer">Containerized Deployment Specialist</p>
+              <span class="cert-status"><i class="fa-solid fa-circle-check"></i> Verified Completion</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon-wrap" style="color: #c084fc; background: rgba(192, 132, 252, 0.12);">
+              <i class="fa-solid fa-cubes"></i>
+            </div>
+            <div class="cert-details">
+              <h4>HashiCorp Terraform Associate</h4>
+              <p class="cert-issuer">Infrastructure as Code Certification</p>
+              <span class="cert-status"><i class="fa-solid fa-circle-check"></i> Verified Foundation</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon-wrap" style="color: #facc15; background: rgba(250, 204, 21, 0.12);">
+              <i class="fa-brands fa-linux"></i>
+            </div>
+            <div class="cert-details">
+              <h4>Linux Server Administration &amp; Bash</h4>
+              <p class="cert-issuer">Enterprise Systems &amp; Automation</p>
+              <span class="cert-status"><i class="fa-solid fa-circle-check"></i> Verified Competency</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Academic & Technical Achievements -->
+        <div class="achievements-grid">
+          
+          <div class="achievement-card">
+            <div class="achievement-icon"><i class="fa-solid fa-trophy"></i></div>
+            <h4>Cloud Hackathon Finalist</h4>
+            <p>Selected among top finalists in university-wide technical hackathon for engineering an automated serverless cost auditing bot on AWS.</p>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon"><i class="fa-solid fa-users"></i></div>
+            <h4>DevOps Community Organizer</h4>
+            <p>Mentored 100+ peer students through practical hands-on workshops covering Docker containers, Linux commands, and Git version control.</p>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon"><i class="fa-solid fa-medal"></i></div>
+            <h4>Academic Distinction</h4>
+            <p>Consistently honored on Dean's academic honor list for superior performance across Operating Systems, Networks, and Database courses.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         PORTFOLIO QR CODE SECTION
+         =================================================================== -->
+    <section id="portfolio-qr" class="section" style="padding-top: 1rem; padding-bottom: 4rem;">
+      <div class="container">
+        <div class="qr-cta-box">
+          <div class="qr-info">
+            <span class="section-badge"><i class="fa-solid fa-mobile-screen"></i> Mobile Portfolio Access</span>
+            <h3>Scan &amp; Access Portfolio On Mobile</h3>
+            <p>
+              Instantly review this portfolio and projects on your smartphone or tablet during technical interviews and campus presentations.
+            </p>
+            <div style="display: flex; gap: 0.8rem; flex-wrap: wrap;">
+              <button id="copy-qr-url-btn" class="btn btn-secondary">
+                <i class="fa-regular fa-copy"></i> Copy Portfolio URL
+              </button>
+              <button id="download-qr-btn" class="btn btn-outline">
+                <i class="fa-solid fa-download"></i> Save QR Code
+              </button>
+              <a href="resume.html" target="_blank" class="btn btn-primary">
+                <i class="fa-solid fa-eye"></i> View Web Resume
+              </a>
+            </div>
+          </div>
+
+          <div class="qr-canvas-holder">
+            <canvas id="portfolio-qr-canvas"></canvas>
+            <span class="qr-caption">GAURISH.DEV • SCAN ME</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         CONTACT SECTION
+         =================================================================== -->
+    <section id="contact" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge">Get In Touch</span>
+          <h2 class="section-title">Let's Connect &amp; <span>Collaborate</span></h2>
+          <p class="section-description">
+            Available for immediate opportunities in Cloud Engineering, DevOps, and Site Reliability Engineering.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info List -->
+          <div class="contact-info-panel">
+            <h3>Direct Contact Channels</h3>
+            <p>
+              I am actively seeking technical internships and full-time cloud/DevOps roles. Reach out via email, LinkedIn, or the message form.
+            </p>
+
+            <div class="contact-cards-list">
+              
+              <!-- Email Card with Copy Button -->
+              <div class="contact-card-item">
+                <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-card-details">
+                  <h5>Direct Email</h5>
+                  <a href="mailto:gaurish.devops@example.com">gaurish.devops@example.com</a>
+                </div>
+                <button id="copy-email-quick-btn" class="copy-email-btn" title="Copy to clipboard">
+                  <i class="fa-regular fa-copy"></i> Copy
+                </button>
+              </div>
+
+              <!-- LinkedIn Card -->
+              <div class="contact-card-item">
+                <div class="contact-card-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="contact-card-details">
+                  <h5>LinkedIn Profile</h5>
+                  <a href="https://linkedin.com/in/gaurish-dev" target="_blank" rel="noopener noreferrer">linkedin.com/in/gaurish-dev</a>
+                </div>
+              </div>
+
+              <!-- GitHub Card -->
+              <div class="contact-card-item">
+                <div class="contact-card-icon"><i class="fa-brands fa-github"></i></div>
+                <div class="contact-card-details">
+                  <h5>GitHub Repositories</h5>
+                  <a href="https://github.com/gaurish-dev" target="_blank" rel="noopener noreferrer">github.com/gaurish-dev</a>
+                </div>
+              </div>
+
+              <!-- Location Card -->
+              <div class="contact-card-item">
+                <div class="contact-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="contact-card-details">
+                  <h5>Location &amp; Availability</h5>
+                  <span>India (Open to Hybrid, Remote, and Relocation)</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Clean Interactive Contact Form -->
+          <div class="contact-form-panel">
+            <h3>Send a Message</h3>
+            <p>Fill in the form below to get in touch directly.</p>
+
+            <form id="contact-form" novalidate>
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Full Name *</label>
+                  <input type="text" id="contact-name" class="form-control" placeholder="e.g. Hiring Manager / Recruiter" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Email Address *</label>
+                  <input type="email" id="contact-email" class="form-control" placeholder="e.g. recruiter@company.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject *</label>
+                <input type="text" id="contact-subject" class="form-control" placeholder="e.g. Cloud &amp; DevOps Engineering Opportunity" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message *</label>
+                <textarea id="contact-message" class="form-control" rows="5" placeholder="Share your message or opportunity details..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ===================================================================
+       FOOTER
+       =================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        
+        <div class="footer-brand">
+          <h4>GAURISH<span style="color: var(--cyan-accent);">.</span>dev</h4>
+          <p class="footer-tagline">"Building Skills Today. Engineering Tomorrow."</p>
+          <p class="footer-bio">
+            B.Tech Information Technology student specializing in cloud infrastructure, container orchestration, and automated CI/CD pipelines.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Quick Navigation</h5>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills &amp; Roadmap</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Featured Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Resources &amp; Resume</h5>
+          <ul class="footer-links">
+            <li><a href="assets/docs/Gaurish_Resume.pdf" download="Gaurish_Resume.pdf"><i class="fa-solid fa-file-pdf"></i> Download PDF Resume</a></li>
+            <li><a href="resume.html" target="_blank"><i class="fa-solid fa-file-lines"></i> View Printable ATS Resume</a></li>
+            <li><a href="#portfolio-qr"><i class="fa-solid fa-qrcode"></i> Mobile QR Access</a></li>
+            <li><a href="https://github.com/gaurish-dev" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub Profile</a></li>
+            <li><a href="https://linkedin.com/in/gaurish-dev" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 GAURISH. All rights reserved.</p>
+        <p>Engineered with modern HTML5, CSS3, and JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ===================================================================
+       PROJECT DETAILS MODAL
+       =================================================================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="modal-body-content">
+        <!-- Dynamically injected from js/main.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Scroll To Top Button -->
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Scroll to top" title="Scroll to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
